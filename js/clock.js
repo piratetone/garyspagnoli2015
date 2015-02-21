@@ -10,10 +10,10 @@ var target_date = new Date("Jan 1, " + next_year).getTime();
 var days, hours, minutes, seconds;
  
 // Get the elements that will hold the numbers.
-var $days = document.getElementById("d");
-var $hours = document.getElementById("h");
-var $minutes = document.getElementById("m");
-var $seconds = document.getElementById("s");
+var $days = document.getElementById("days");
+var $hours = document.getElementById("hours");
+var $minutes = document.getElementById("mins");
+var $seconds = document.getElementById("secs");
 
 // Calculate the countdown clock and set the HTML.
 function update() {
